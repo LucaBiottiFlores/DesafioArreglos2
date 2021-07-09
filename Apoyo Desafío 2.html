@@ -186,13 +186,21 @@
       }
     );
 
+  
+    
+    //No modifica el arreglo original, excluye al primer y el ultimo elemento
+
+    const nuevaRadiologia = radiologias.slice(1, radiologia.length - 1);
+
+    //Modifica el Arreglo Original
+    
     //Eliminar el Primer elemento del array Radiología
 
-    radiologias.shift();
+    // radiologias.shift();
 
-    //Eliminar el último elemento del array Radiología
+    // //Eliminar el último elemento del array Radiología
 
-    radiologias.pop();
+    // radiologias.pop();
 
     //Imprimir listado Dental
     document.write('<p class="subtitle">Listado Pacientes Dental</p>');
